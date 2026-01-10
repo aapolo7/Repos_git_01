@@ -1,4 +1,23 @@
+Sequencias fundamentais:
+- abrir github 
+- ir em repositories 
+- new em verde 
+- colocar nome e observação 
+- fazer oque o github manda
+- selecionar pasta                 | cd  .\\
+- adicionar arquivos               | git add
+- salvar mudanças                  | git commit
+- enviar arquivos para o repos     | git push
+
+
 Seleciona pasta com: cd .\Nome da pasta\
-Ver informações principaplemte se ta adicionado no GitHub: git status
+
+Verificar informações principalemte se estão salvados no GitHub: git status
+
 Adicionar arquivos. Usar frequentemente: git add "nome do arquivo" ou "pasta\arquivo"
 Adicionar todos arquivos: git add . (sempre verificar com status)
+
+Salvar todos arquivos e mandar mensagem: git commit -a -m "enviando todos arquivos"
+Salvar e enviar mensagem: git commit "nome do arquivo" -m "mensagem"
+
+Enviar ao repositório: git push
