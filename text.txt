@@ -1,23 +1,20 @@
 Sequencias fundamentais:
+
 - abrir github 
 - ir em repositories 
 - new em verde 
 - colocar nome e observação 
 - fazer oque o github manda
-- selecionar pasta                 | cd  .\\
-- adicionar arquivos               | git add
-- salvar mudanças                  | git commit
+
+- selecionar pasta                 | cd  .\arquivo\
+- limpar terminal                  | clear
+- adicionar git no vscode\terminal | git init
+- adicionar arquivos específicos   | git add (arquivo) (pasta\arquivo)
+- adicionar todos arquivos         | git add .
+- salvar todas mudanças            | git commit -a -m "mensagem"
+- salvar mudanças epecíficas       | git commit (arquivo) -m "mensagem"
+- verificar informações            | git status                             |Usar frequentemente para nao perder nada
 - enviar arquivos para o repos     | git push
-
-
-Seleciona pasta com: cd .\Nome da pasta\
-
-Verificar informações principalemte se estão salvados no GitHub: git status
-
-Adicionar arquivos. Usar frequentemente: git add "nome do arquivo" ou "pasta\arquivo"
-Adicionar todos arquivos: git add . (sempre verificar com status)
-
-Salvar todos arquivos e mandar mensagem: git commit -a -m "enviando todos arquivos"
-Salvar e enviar mensagem: git commit "nome do arquivo" -m "mensagem"
-
-Enviar ao repositório: git push
+- abaixa e mescla e salva o branch | git pull                               |usar frequentemente para ver si nao ha nada novo
+- clonar repositórios              | git clone (url) .                      |ir no repositório ir em code/copiar url
+- remover arquivo                  | git rm (arquivo)
