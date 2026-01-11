@@ -26,6 +26,6 @@ Comandos mais usados:
 - retornar ao arquivo original     | git checkout (arquivo)                 |usar com atenção
 - ignorar arquivos como APIs       | .gitignore                             |criar arquivo colocar arquivos desnecessarios dentro dele depois criar arquivos desnecessarios, obdecer sequencia. si for colocar pasta coloca /* na frente do nome da pasta
 - desfazer todas alterações        | git reset --hard origin/main           |reseta ate o ultimo git push | usar com atenção
-- criar ramificação do codigo fonte| git branch
+- criar ramificação do codigo fonte| git branch (nome)
 
-- branch: ramificações do codigo principal o master/main
+- branch: ramificações do codigo principal o master/main | so criar branch depois do main/master
