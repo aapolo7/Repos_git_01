@@ -6,6 +6,8 @@ Sequencias fundamentais:
 - colocar nome e observação 
 - fazer oque o github manda
 
+Comandos mais usados:
+
 - selecionar pasta                 | cd  .\arquivo\
 - limpar terminal                  | clear
 - adicionar git no vscode\terminal | git init
@@ -21,3 +23,6 @@ Sequencias fundamentais:
 - puxar histórico de atualizações  | git log                                |mostra quem, data e hora                           
 - mover para outra pasta           | git mv (1arquivo) (pasta/1arquivo)      
 - renomear arquivo                 | git mv (errado) (certo)
+- retornar ao arquivo original     | git checkout (arquivo)                 |usar com atenção
+- ignorar arquivos como APIs       | .gitignore                             |criar arquivo colocar arquivos desnecessarios dentro dele depois criar arquivos desnecessarios, obdecer sequencia. si for colocar pasta coloca /* na frente do nome da pasta
+- desfazer todas alterações        | git reset --hard origin/main           |reseta ate o ultimo git push | usar com atenção
