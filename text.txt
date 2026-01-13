@@ -6,11 +6,43 @@ Sequencias fundamentais:
 - colocar nome e observação 
 - fazer oque o github manda
 
-Comandos mais usados:
+Comandos diferentes:
 
 - selecionar pasta                 | cd  .\arquivo\
 
 - limpar terminal                  | clear
+
+- atualizar master => git branch => git pull => git merge origin/nome do branch => git push
+
+-------------------------------------------------------------------------------------
+- pegar ultima atualização da main 
+    | git checkout master => git pull        
+        | fazer sempre que for começar a trabalhar  
+            | depois dar checkout -b "mensagem" para mudar e criar um branch
+                | depois que termian a tarefa da um commit depois pull
+                    | depois copia o comando que elo da para ficar no remoto/github
+---------------------------------------------------------------------------------------
+- enviar alterações
+    | git status para ver
+        |git add . adicionar tudo
+            |git status
+                |git commit -a -m
+                    |git push
+-------------------------------------------------------------------------------------------
+- trabalhar remotamente com outro dev => falar que o outro dev ja pode baixar a master
+    |git fetch -a puxar arquivos do repo
+        |git checkout em nova_tarefa
+            |git branch ver branchs
+                |git commit -a -m salvar 
+                    |git push
+-------------------------------------------------------------------------------------------
+- atualizar submodulo 
+    |git add . adicionar tudo 
+        |git commit -a -m salvar no repositorio 
+            |  git push --recurse-submodule=on-demand push diferente para o submodule
+------------------------------------------------------------------------------------------
+
+Comandos em geral:
 
 - adicionar git no vscode\terminal | git init
 
@@ -82,3 +114,16 @@ Comandos mais usados:
 - enviar a tag ao repositório      | git push origin (nome da tag)
 
 - enviar toas tags ao repositório  | git push origin --tags
+
+- puxar todos que esta no github   | git fetch -a 
+
+- ver as origin                    | git remote -v
+
+- remover origin                   | git remote rm origin => confirma com git remote -v
+
+- adicionar origin                 | git remote add origin (url da origin)   |depois disso ja pode usar o pull e fazer o trabalho
+
+- juntar repositorios em um so     | git submodule add (link do repo) (name da pasta que ele vai)
+
+
+
