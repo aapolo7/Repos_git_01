@@ -82,7 +82,6 @@ Comandos em geral:
 
 - deletar um branch                | git branch -d ou --delete (nome)       |pouco usado
 
-
 - mudar e criar branch             | git checkout -b (arquivo)              |usado para dispensar mudanças de um arquivo
 
 - git checkout master/main       =>| git pull Depois criar outro branch     |sempre commitar para nao trazer erros 
@@ -107,6 +106,8 @@ Comandos em geral:
 
 - ver tags criadas                 | git tag                                | colocar tag depois de commitar
 
+- ver detalhes de branches e tags  | gi show
+
 - verificar tags                   | git show (nome dado na tag -a)
 
 - trocar de tag                    | git checkout (nome da tag -a)
@@ -125,5 +126,9 @@ Comandos em geral:
 
 - juntar repositorios em um so     | git submodule add (link do repo) (name da pasta que ele vai)
 
+- ver diferença de branches da main| git diff
 
+- ver diferença de dois branchs    | git diff (arquivo) (arquivo_b)
+
+- ver tudo resumido do projeto/repo| git shortlog
 
