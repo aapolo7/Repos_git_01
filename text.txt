@@ -159,3 +159,5 @@ Comandos em geral:
 
 - ver tudo resumido do projeto/repo| git shortlog
 
+- excluir commit aula 71 minuti 8  | git 
+
