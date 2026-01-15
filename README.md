@@ -1,1 +1,1 @@
-# Comando mais usados do git / Explicação das abas github.
+# Comandos frequentes do git / Explicação das abas github.
