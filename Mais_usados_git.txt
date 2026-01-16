@@ -1,4 +1,4 @@
-Sequencias fundamentais:
+                                Sequencias fundamentais:
 
 - abrir github 
 - ir em repositories 
@@ -7,7 +7,7 @@ Sequencias fundamentais:
 - fazer oque o github manda
 
 ------------------------------------------------------------------
-letras e seus comandos
+                                letras e seus comandos
 - -a => todos
 - -m => mensagem
 - -d => delete
@@ -15,7 +15,7 @@ letras e seus comandos
 - -f => forçar
 --------------------------------------------------------------------------
 
-Comandos diferentes:
+                                Comandos diferentes:
 
 - selecionar pasta                 | cd  .\arquivo\
 
